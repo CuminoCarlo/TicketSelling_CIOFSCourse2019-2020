@@ -1,0 +1,207 @@
+/*Menù di navigazione*/
+nav {
+    background-color: #4472C4;
+    width:100%;
+    border-radius: 5px;
+} 
+
+nav> ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+    color:white;
+}
+
+li a {
+    color:white;
+    font-size: 20px;
+    padding: 12px;
+    display: block;
+    text-align: center;
+    text-decoration: none; 
+}
+
+ul > li.nome_utente{
+    color:white;
+    font-size: 20px;
+    padding: 12px;
+    margin-right:50px;
+    display: block;
+    float:right;
+    text-align: right;
+    font-weight: bold;
+    
+}
+
+/* Gestione stile sub Menù*/
+
+ul > li > a:hover {
+    font-style: bold;
+    background-color: darkblue;
+    font-weight: bold;
+}
+
+ul > li > a:active {
+    font-style: bold;
+    background-color: darkblue;
+    font-weight: bold;
+}
+
+li ul {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+    position:absolute;   
+}
+
+li ul li {
+    float:none;
+    background-color:#4472C4;
+    text-decoration: none;  
+}
+
+li ul li > a {
+    text-align: left;
+    border: 2px solid #4472C4;
+}
+
+li ul li > a:hover {
+    font-weight: bold;
+    background-color: darkblue;
+}
+
+
+.nome_utente{
+    border-top:15px;
+}
+
+.btn_menu{
+    position: relative;
+    float: right;
+}
+
+/* Home page*/
+.container {
+    margin: 0 2%;
+}
+
+.section{
+    padding: 2% 0;
+}
+
+
+.sezione_sinistra {
+    float:left; 
+    width:50%; 
+    margin-right:25%;
+} 
+
+.sezione_destra {
+    overflow: hidden;
+    width:50%;
+    
+}
+
+ol{
+    list-style:none;
+}
+
+ol li {
+    margin-top:10px;
+}
+
+#testi{
+    text-align:center;
+}
+
+img.logo{
+    width:350px;
+    margin-left: 250px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+p{
+    font-size:18px;
+}
+
+
+
+
+/* Tabelle */
+
+
+table {
+	position: relative;
+	width: 90%;
+	margin-left: 5%;
+    margin-top: 3px;
+    border-bottom: thin grey;
+}
+table tr {
+	height: 40px;
+}
+
+td {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+td > a, .button-prenota{
+    background-color: green;
+    border-radius: 5px;
+    color:#fff;
+    position:center;
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: 20px;
+
+}
+
+.button-annulla{
+    background-color:#ff0000;
+    border-radius: 5px;
+    color:#fff;
+    position:center;
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 20px;
+
+}
+
+button {
+    background-color: green;
+    border-radius: 20px;
+    color:#fff;
+    position:center;
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+td > a {
+    background-color: none;
+    color: none;
+    text-decoration: none;
+    border: none;
+}
+
+/*footer*/
+.footer{
+    background:darkblue;
+    position:relative;
+    text-align: center;
+    bottom:0;
+    width:100%;
+    height:50%;
+    margin-top:2%;
+    color:white;
+    clear:both;
+}
